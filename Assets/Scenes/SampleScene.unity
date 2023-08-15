@@ -3290,8 +3290,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  maxSpeed: 10
+  minSpeed: 2
   xSpeed: 2
   jumpHeight: 3
+  accelerationRate: 1
 --- !u!114 &1045125996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3317,6 +3320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 980a5d0cdafdc3f438d45144792c9d2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  accelerationDeltaTime: 10
 --- !u!114 &1045125998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3330,8 +3334,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  maxSpeed: 10
+  minSpeed: 2
   xSpeed: 2
   jumpHeight: 3
+  accelerationRate: 1
 --- !u!114 &1045125999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4305,7 +4312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44270825, g: 0.8113208, b: 0.095674604, a: 0.94509804}
+  m_Color: {r: 0.113725476, g: 0.9529412, b: 0.8586327, a: 0.94509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
