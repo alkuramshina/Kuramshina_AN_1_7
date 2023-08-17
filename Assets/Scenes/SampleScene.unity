@@ -3174,6 +3174,7 @@ GameObject:
   - component: {fileID: 1045125996}
   - component: {fileID: 1045125997}
   - component: {fileID: 1045125999}
+  - component: {fileID: 1045126000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3289,12 +3290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b363df63b44cdaa654c636b23035cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  maxSpeed: 10
-  minSpeed: 2
-  xSpeed: 2
-  jumpHeight: 3
-  accelerationRate: 1
 --- !u!114 &1045125996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3333,12 +3328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 873eb89774f64cb496ea055962d148b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  maxSpeed: 10
-  minSpeed: 2
-  xSpeed: 2
-  jumpHeight: 3
-  accelerationRate: 1
 --- !u!114 &1045125999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3351,6 +3340,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c3d6b72e247d3afabbcb92108fabf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1045126000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045125988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e2e0dff7ca74e438e846da02b766b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingSpeed: 5
+  maxSpeed: 10
+  minSpeed: 1
+  xSpeed: 2
+  jumpHeight: 3
+  accelerationRate: 1.2
+  slowDownRate: 0.8
 --- !u!1 &1048967017
 GameObject:
   m_ObjectHideFlags: 0
